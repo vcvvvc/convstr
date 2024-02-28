@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Convert to the text you want.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vcvvvc/convstr.git"
@@ -19,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/vcvvvc/convstr/issues"
   },
-  "homepage": "https://github.com/vcvvvc/convstr#readme"
+  "homepage": "https://github.com/vcvvvc/convstr#readme",
+  "dependencies": {
+    "@kdthanvi/pkgx": "^2.0.0",
+    "jsencrypt": "^3.3.2"
+  }
 }
