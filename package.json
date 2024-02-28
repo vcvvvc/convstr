@@ -1,0 +1,23 @@
+{
+  "name": "convstr",
+  "version": "1.0.0",
+  "description": "Convert to the text you want.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcvvvc/convstr.git"
+  },
+  "keywords": [
+    "string",
+    "convert"
+  ],
+  "author": "vcvckw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vcvvvc/convstr/issues"
+  },
+  "homepage": "https://github.com/vcvvvc/convstr#readme"
+}
