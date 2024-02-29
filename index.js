@@ -48,6 +48,15 @@ function toTimestamp(text) {
     return Date.parse(dateString);
 }
 
+function to16(text) {
+    if(typeof text !== "string") throw new TypeError("Need text is string");
+
+}
+const num = 255;
+console.log(num.toString(16)); // 将十进制转换为十六进制
+console.log(num.toString(16).toUpperCase()); // 将十进制转换为十六进制，并转为大写
+
+
 module.exports = {
     removeSpace: removeSpace,
     toLowText: toLowText,
